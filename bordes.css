@@ -1,0 +1,21 @@
+td,
+th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+th[scope='col'] {
+    background-color: #434349;
+    color: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+}

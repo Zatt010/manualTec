@@ -1,0 +1,112 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia De HTML</title>
+    <link rel="stylesheet" href="bordes.css"> <!-- hace bordes  -->
+
+</head>
+<table>
+    <tr>
+        <th scope="col">Etiqueta</th>
+        <th scope="col">Uso</th>
+        <th scope="col">Ejemplo</th>
+    </tr>
+    <tr>
+        <th scope="row">< html> < /html> </th>
+        <td>es la la raiz de un documento HTM, 
+            los demas  elementos descienden de este 
+            elemento,volviendolo el padre del documento.<p>Permite
+            un elemento < head> seguido de un elemento < body>.</p></td>
+        <td> <p>< html lang="en"></p>
+            <p>< head></p>
+             <p> < !-- … --></p>
+             <p>< /head>
+             < body></p>
+             <p>< !-- … --></p>
+             < /body>
+             < /html></p>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">< head> cabecera< /head></th>
+        <td>provee metadatos acerca del documento, su padre es el elemento html,
+             ya que esta etiqueta es su primer hijo.</td>
+             <td><p>< html lang="en-US"></p>
+             <p>< head></p>
+             <p>< meta charset="UTF-8" />
+              < meta name="viewport" content="width=device-width" />
+              <p> < title>Document title< /title></p>
+               <p>< /head>
+               < /html></p>
+            </td>
+    </tr>
+    <tr>
+        <th scope="row">< body> cuerpo < /body></th>
+        <td> Es el contenido que se encuentra dentro del documento HTML, 
+            solo puede haber un elemento <body> en todo el documento, 
+                el tipo de contenido que este acepta es el Flujo de contenido, 
+                es la segunda etiqueta a usar despues de <html></html></td>
+        <td><p>< html>
+             < head></p>
+             <p> < title>Título del documento< /title>
+              < /head></p>
+             <p>< body>
+              < p>Este es un párrafo< /p>
+             <p>< /body>
+             < /html></p>
+          </td>
+    </tr>
+    <tr>
+        <th scope="row">< p> Parrafo < /p></th>
+        <td>Bloques de texto que pueden ser seguidos por otros elementos dentro, incluso otro < p>, 
+            permite de cierta forma actuar como un separador</td>
+        <td> <p>< p>How hard to read? See for yourself:
+            < button data-toggle-text="Oh no! Switch back!">Use pilcrow for paragraphs</p> <p>< /button>
+          < /p></p>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">< div> Division< /div></th>
+        <td>Su función es crear secciones y la agrupación de contenido, 
+             puede contener elementos de texto, bloque o línea.</td>
+        <td>  <p>< div style="color: blue;">
+             < h2> Ejemplo de div y span < /h2></p>
+             <p>< p>
+               Esto es un párrafo dentro de un div,
+             <p> < span style="color: red;"> y esto un span dentro de un párrafo.< /span></p></p>
+             <p>< /p>
+             < /div></p>
+           </td>
+    </tr>
+    <tr>
+        <th scope="row">< h1-6> Titulos < /h1-6></th>
+        <td>Dentro de los títulos se cuentan con seis niveles de encabezado del documento, 
+            < h1> siendo el  más importante, y < h6> siendo el menos importante, siempre se debe comenzar  con < h1>, 
+            después se usa < h2> y así sucesivamente hasta el ultimo nivel.
+        </td>
+        <td><p>
+            < h1>Heading elements< /h1>
+            < h2>Summary< /h2>
+            < p>Some text here...< /p></p>
+
+         <p>< h2>Examples< /h2>
+            < h3>Example 1< /h3>
+            < p>Some text here...< /p></p>
+
+         <p>< h3>Example 2< /h3>
+            < p>Some text here...< /p> </p>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">< th>< /th></th>
+        <td> Su funcion es definir una celda como encabezado de un grupo de celdas en una tabla.</td>
+        <td> <p>< tr>
+            < th scope="col">Player</ th></p>
+         <p>< th scope="col">Gloobles< /th></p>
+         <p>< th scope="col">Za'taak< /th>
+            < /tr></p>
+    </td>
+    </tr>
+</table>

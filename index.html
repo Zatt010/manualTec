@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="bordes.css"> <!-- hace bordes  -->
 
 </head>
+<body>
+    <p style="text-align: center;">
+        <img src="/imagenes/chocopare.gif" alt="chocopare" onclick="reproducirAudio()">
+    </p>
+      
+      <audio id="miAudio">
+        <source src="/imagenes/low quality.mp3" type="audio/mpeg">
+      </audio>
+      
+      <script>
+      function reproducirAudio() {
+        var audio = document.getElementById("miAudio");
+        audio.play();
+      }
+      </script>
+      
+
 <table>
     <tr>
         <th scope="col">Etiqueta</th>
@@ -99,14 +116,6 @@
             < p>Some text here...< /p> </p>
         </td>
     </tr>
-    <tr>
-        <th scope="row">< th>< /th></th>
-        <td> Su funcion es definir una celda como encabezado de un grupo de celdas en una tabla.</td>
-        <td> <p>< tr>
-            < th scope="col">Player</ th></p>
-         <p>< th scope="col">Gloobles< /th></p>
-         <p>< th scope="col">Za'taak< /th>
-            < /tr></p>
-    </td>
-    </tr>
 </table>
+</body>
+/
